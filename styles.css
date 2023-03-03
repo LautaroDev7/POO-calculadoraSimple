@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.contenedor{
+    min-width: 400px;
+    min-height:500px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(170, 186, 187);
+}
+
+.contenedor .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor .inputs .numeros{
+    margin: 5px;
+    min-height: 30px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+button{
+    height: 30px;
+    min-width: 30px;
+    border: 1px silver;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.boton-reset{
+    display: flex;
+    justify-content: center;
+}
+
+.resultados{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resultados .resultado{
+    margin:10px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}

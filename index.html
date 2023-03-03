@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="inputs">
+            <input type="text" id="num1" autocomplete="off" placeholder="Numero 1 " class="numeros">
+            <input type="text" id="num2" autocomplete="off" placeholder="Numero 2" class="numeros">
+        </div>
+        <div class="botones">
+            <button class="operacion" id="suma">+</button>
+            <button class="operacion" id="resta">-</button>
+            <button class="operacion" id="division">/</button>
+            <button class="operacion" id="multi">*</button>
+        </div>
+        <div class="boton-reset">
+            <button class="operacion" id="reset">Reset</button>
+       </div>
+        <div id="resultados" class="resultados"></div>
+    </div>
+</body>
+<script src="script.js"></script> 
+</html>
